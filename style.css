@@ -254,13 +254,13 @@ body{
 
 
 
-#sm-banner .banner-box { 
+/* #sm-banner .banner-box { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(./img/acton-crawford-o8wyYJ_54Gg-unsplash.jpg);
+ background-image: url(./img/acton-crawford-o8wyYJ_54Gg-unsplash.jpg); 
     height: 50vh;
     min-width:550px;
     background-size: cover;
@@ -270,18 +270,43 @@ body{
 
 
 #sm-banner .banner-box2 { 
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     text-align: center;
-    background-image: url(./img/mitchell-luo-G5i9LQ7sPOw-unsplash.jpg);
-    height: 50vh;
+     background-image: url(./img/mitchell-luo-G5i9LQ7sPOw-unsplash.jpg); 
+     height: 50vh;
     min-width:550px;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
     padding: 30px;
-}
+} */
+
+
+@keyframes parpadeo {
+    0% { color:#FEB703; }
+    50% { color: blue; }
+    100% { color: yellow; }
+  }
+  
+.parpadeo {
+    animation: parpadeo 2s linear infinite;
+  }
+
+  #textos-llamativos .parpadeo {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:80px;
+  }
+
+
+
+
+
+
+
+
 
 #sm-banner h4 { 
     color: #fff;
@@ -941,4 +966,14 @@ body{
 
    #feature2 .fe-box2 a {
     text-decoration: none;
+   }
+
+
+   #product1 h2 {
+    font-size: 30px;
+   }
+
+
+   marquee {
+    font-size: 40px;
    }
