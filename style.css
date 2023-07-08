@@ -107,12 +107,29 @@ body{
 /* Home page */
 
 #hero {
-    background-image: url(./img/ANUNCIO\ REFACCIONARIA\ 2.jpg);
+    background-image: url(./img/Diseño\ sin\ título.png);
     background-size: 100% 100%;
     background-position: center;
     height: 400px;
     width: 100%;
 }
+
+
+#hero2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#hero2 img{
+    width: 700px;
+}
+
+
+
+
+
+
+
 
 
 #feature {
@@ -152,6 +169,10 @@ body{
     text-align: center;
 }
 
+
+#product1 h2 {
+    text-align: justify;
+}
 
 #product1 .pro-container { 
     display: flex;
@@ -227,7 +248,7 @@ body{
 
 #sm-banner { 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 
@@ -419,6 +440,7 @@ body{
 
     #navbar li {
         margin-bottom: 25px;
+        margin-left: 20px;
     }
 
     #mobile { 
@@ -519,8 +541,8 @@ body{
 
 
         #contact-details iframe { 
-
-            width: 100%;
+            height: 600px;
+            width: 900px;
             border-radius: 10px;
 
         }
@@ -538,12 +560,25 @@ body{
         
         }
 
-        /* #about-head img {
-            margin: 40px;
-        } */
 
 
-     
+        #contact-details iframe { 
+            height: 400px;
+            width: 350px;
+        }
+
+    
+
+
+        #hero2 {
+            margin-left: 19px;
+            margin-top: 20px;
+           }
+        
+            #hero2 img{
+                width: 600px;
+            }
+  
     
 
 } 
@@ -596,6 +631,19 @@ body{
 
 
 @media (max-width: 477px) {
+
+
+    #navbar li {
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+
+
+
+    #hero { 
+        height: 200px;
+
+    }
 
     #about-head { 
     
@@ -654,12 +702,130 @@ body{
 
 
 
+
+
+
+
+    .newstext h4 { 
+        text-align: center;
+    }
     
-    section-p1 {
-        padding: 400px;
+    .newstext p {
+        margin-left: 0px;
+        text-align: center;
+      }
+
+
+     .normal {
+        margin-left:  70px;
+     } 
+      
+
+     #contact-details iframe { 
+        height: 400px;
+        width: 350px;
     }
 
+
+
+    .details h2 {
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+
+
+  .contacto-textos p { 
+     text-align: justify;
+  }
+
+  .details {
+    margin-left: 40px;
+  }
+
+
+
+  #tarjetas h2 {
+    text-align: center;
+  }
+  
+
+
+  #feature2 {
+    display: flex;
+    align-items: center;
+     justify-content: space-between; 
+     flex-wrap: wrap; 
+   } */
    
+   
+    #feature2 .fe-box2 {
+       width: 180px;
+       text-align: center;
+       padding: 25px 15px;
+   }  
+    
+   
+   #feature2 .fe-box2 img {
+       width: 100%;
+       margin-bottom: 10px;
+      
+   }
+
+
+   #feature2 .fe-box2 h3 {
+    color: #0b34eb;
+   margin-left: 50px;
+
+
+   }
+
+   #feature2 .fe-box2 a {
+    text-decoration: none;
+   }
+
+
+
+   #feature3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   
+   
+   #feature3 .fe-box3 {
+       width: 400px;
+       text-align: center;
+       padding: 25px 15px;
+   }
+   
+   
+   #feature3 .fe-box3 img {
+       width: 100%;
+       margin-bottom: 10px;
+       margin-left: 5px;
+   }
+
+
+
+   #hero2 {
+    margin-left: 19px;
+    margin-top: 20px;
+   }
+
+    #hero2 img{
+        width: 200px;
+    }
+
+
+    #product1 h2 {
+     font-size:22px;
+     text-align: justify;
+     font-weight:200;
+    }
+
+
+
 
     
 }
@@ -716,15 +882,63 @@ body{
 }
 
 
-#contacto-title h2 {
-    color: #0b34eb;
-}
-
-a {
-    text-decoration: none; /* Quita la decoración de subrayado */
   
-  }
 
-  a:hover {
-    text-decoration: none; /* Subraya el enlace al pasar el cursor sobre él */
-  }
+   #tarjetas h2 {
+    text-align: center;
+   }
+
+
+   #feature3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+   
+   
+   #feature3 .fe-box3 {
+       width: 500px;
+       text-align: center;
+       padding: 25px 15px;
+   }
+   
+   
+   #feature3 .fe-box3 img {
+       width: 100%;
+       margin-bottom: 10px;
+
+   }
+
+   #feature2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+   
+   
+   #feature2 .fe-box2 {
+       width: 250px;
+       text-align: center;
+       padding: 25px 15px;
+   }
+   
+   
+   #feature2 .fe-box2 img {
+       width: 100%;
+       margin-bottom: 10px;
+      
+   }
+
+
+   #feature2 .fe-box2 h3 {
+    color: #0b34eb;
+   margin-left: 5px;
+
+
+   }
+
+   #feature2 .fe-box2 a {
+    text-decoration: none;
+   }
